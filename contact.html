@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Works</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            module,exports: {
+                plugins: [
+                require('@tailwindcss/forms'),
+                ],
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <!-- nav -->
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav class="flex flex-col items-center justify-between p-6 lg:flex-row lg:px-8" aria-label="Global">
+                <div class="flex lg:flex-1">
+                    <a href="index.html">
+                        <img class="h-11 w-auto pb-2" src="img/logo.jpg" alt="logo. ">
+                    </a>
+                    <a href="index.html" class="px-4 pt-3 text-xl font-semibold leading-6 text-gray-900">Maya Petersen</a>
+                </div>
+
+                <div class="mt-4 lg:flex lg:gap-x-12 lg:flex-row flex-col items-center lg:items-start">
+                    <a href="about.html" class="px-4 text-sm font-semibold leading-6 text-gray-900">About</a>
+                    <a href="works.html" class="px-4 text-sm font-semibold leading-6 text-gray-900">Works</a>
+                    <a href="aspirations.html" class="px-4 text-sm font-semibold leading-6 text-gray-900">Aspirations</a>
+                    <a href="contact.html" class="px-4 text-sm font-semibold leading-6 text-gray-900">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- background -->
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+            <div class="absolute inset-x-0 overflow-hidden blur-3xl sm:-top-80 bg-repeat" aria-hidden="true">
+                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ffeea5] to-[#ffe066] bg-cover bg-repeat opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+
+
+        </div>
+
+        <!-- form -->
+
+        <div class="mx-auto max-w-2xl py-1 sm:py-1 lg:pt-20 mt-28">
+            <form>
+
+<form>
+    <div class="space-y-12">
+      <div class="border-b border-gray-900/10 pb-12">
+        <h2 class="text-base font-semibold leading-7 text-gray-900 mb-4 ">Get in Touch</h2>
+        <p class="mt-1 text-sm leading-6 text-gray-600 mb-8">Thank you for reaching out! I'm eager to hear from you. For any inquiries, questions, or collaborations, feel free to contact me using the form. Whether you prefer email or phone, I'm committed to responding promptly and ensuring quality experience. I can't wait to talk with you!
+        </p>
+        <p class="mt-1 text-sm leading-6 text-gray-600 mb-8">
+            Embark on the journey of transforming your online presence by reaching out to me for your website design needs. I love crafting visually appealing websites tailored to meet your unique requirements. Whether you're starting from scratch, seeking a redesign, or looking to enhance functionality, I am the designer for you. Your vision is my priority. Contact me today, and let's collaborate to bring your website to life!
+        </p>
+        <p class="mt-1 text-sm leading-6 text-gray-600 mb-8">
+            Prospective employer? My resume will provide insight into my qualifications and experience. My resume displays a diverse skill set, showcasing proficiency in web design, development, and technological solutions. If you're seeking a candidate dedicated to excellence, innovation, and adaptability, my resume is a testament to my commitment to delivering impactful results. Reach out today, and let's explore the possibilities of working together.
+        </p>
+
+        <p class="mt-1 text-sm leading-6 text-gray-600 mb-8">
+            Stay connected and informed by anticipating the launch of my professional Instagram account. Here I'll share updates, insights, and glimpses into my work. By following me on Instagram, you'll be among the first to discover new projects, design inspirations, and engaging content related to web development and technology. Drop your handle in the message, and I'll give you a follow!
+        </p>
+
+  
+      <div class="border-b border-gray-900/10 pb-12">
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div class="sm:col-span-3">
+            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+            <div class="mt-2">
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-3">
+            <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+            <div class="mt-2">
+              <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+  
+          <div class="sm:col-span-4">
+            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+            <div class="mt-2">
+              <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-span-full">
+        <label for="about" class="block text-sm font-medium leading-6 text-gray-900">Message</label>
+        <div class="mt-2">
+          <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+        </div>
+      </div>
+  
+    <div class="mt-6 flex items-center justify-end gap-x-6">
+      <button type="submit" class="rounded-md bg-amber-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-600">Send</button>
+    </div>
+  </form>
+  
+        <p class="text-sm leading-6 text-gray-600 my-8">
+            Thank you for reaching out! Your message has been received. I will review and respond to your inquiry promptly. Your interest is valued, and I look forward to speaking with you.
+        </p>
+    </div>
+      
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+<!-- I used form concepts from tailwind to create the form, although I had to do a lot of editing to get the specifics that I want -->
